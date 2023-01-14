@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const methodOverride = require('method-override')
+const fetch = require('node-fetch')
 const { v4: uuidv4 } = require('uuid');
 const app = express();
 const dot = require('dotenv').config();
